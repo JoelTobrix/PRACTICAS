@@ -25,7 +25,7 @@
                         <input type="checkbox" value="remember-me"> Remember me
                     </label>
                 </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesion</button>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesion</button>      
                 
                 <p class="mt-5 mb-3 text-muted">© 2024-2025</p>
             </form>

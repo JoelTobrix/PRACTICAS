@@ -11,17 +11,17 @@
         <div class="card-header">
             <h2 class="card-title">Registro</h2>
             <img src="../img/icon_ussuary.png">
-            <p class="card-description">Nueva  cuenta para acceder a nuestros servicios.</p>
+            <p class="card-description">Nueva cuenta para acceder a nuestros servicios.</p>
         </div>
-        <form action="#" method="post">
+        <form action="../controllers/registro.controller.php" method="post">
             <div class="form-group">
                 <label for="username">Usuario</label>
-                <input type="text" id="username" name="username" placeholder="Ingrese tu nombre de usuario" required>
+                <input type="text" id="username" name="usuario" placeholder="Ingrese tu nombre de usuario" required>
             </div>
             <div class="form-group">
                 <label for="password">Contraseña</label>
                 <div class="password-input">
-                    <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+                    <input type="password" id="password" name="contrasena" placeholder="Ingresa tu contraseña" required>
                     <button type="button" class="toggle-password" onclick="togglePassword()">👁️</button>
                 </div>
             </div>

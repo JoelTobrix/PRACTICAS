@@ -12,7 +12,7 @@
     </head>
     <body class="text-center">
         <main class="form-signin">
-            <form>
+            <form action="../views/services.php">
                 
             <img src="../img/icon_ussuary.png" height="50px" weight="50px"> 
                 <h1 class="h3 mb-3 fw-normal">Iniciar sesion</h1>

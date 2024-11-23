@@ -12,23 +12,31 @@
     </head>
     <body class="text-center">
         <main class="form-signin">
-            <form action="../views/services.php">
-                
-            <img src="../img/icon_ussuary.png" height="50px" weight="50px"> 
-                <h1 class="h3 mb-3 fw-normal">Iniciar sesion</h1>
-                <label for="inputEmail" class="visually-hidden">Email address</label>
-                <input type="email" id="inputEmail" class="form-control" required="" autofocus="" placeholder="Direccion email">
-                <label for="inputPassword" class="visually-hidden">Password</label>
-                <input type="password" id="inputPassword" class="form-control" required="" placeholder="Contraseña">
-                <div class="checkbox mb-3">
-                    <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesion</button>      
-                
-                <p class="mt-5 mb-3 text-muted">© 2024-2025</p>
-            </form>
+        <form action="../controllers/login.controller.php" method="POST">
+    <img src="../img/icon_ussuary.png" height="50px" weight="50px">
+    <h1 class="h3 mb-3 fw-normal">Iniciar sesión</h1>
+
+    <!-- Campo para el usuario (email) -->
+    <label for="inputEmail" class="visually-hidden">Email address</label>
+    <input type="email" id="inputEmail" name="usuario" class="form-control" required="" autofocus="" placeholder="Dirección email">
+
+    <!-- Campo para la contraseña -->
+    <label for="inputPassword" class="visually-hidden">Password</label>
+    <input type="password" id="inputPassword" name="contrasena" class="form-control" required="" placeholder="Contraseña">
+
+    <!-- Recordar sesión -->
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="remember-me"> Recordar sesión
+        </label>
+    </div>
+
+    <!-- Botón para enviar -->
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesión</button>
+
+    <p class="mt-5 mb-3 text-muted">© 2024-2025</p>
+</form>
+
         </main>
         <script src="/js/popper.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>

@@ -32,7 +32,7 @@
                 <div class="service-icon">🌐</div>
                 <h2 class="service-title">Conectividad Global</h2>
                 <p class="service-description">Acceso a servidores internacionales para mejor rendimiento.</p>
-                <a href="#" class="service-link">Más información ▼</a>
+                <a href="../services/connect.php/" class="service-link">Más información ▼</a>
             </div>
             <div class="service-card">
                 <div class="service-icon">🛡️</div>

@@ -8,8 +8,8 @@
 </head>
 <body>
     <h2 align="center"> Acceso a Servidores internacionales </h2> 
-    
-    <table class="table body">
+
+      <table class="table body">
         <thead> 
         <tr>  
             <th>Direccion IP</th>
